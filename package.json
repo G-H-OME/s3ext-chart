@@ -1,0 +1,33 @@
+{
+  "name": "s3ext-charts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "core-js": "3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 NODE_ENV=production parcel build ./src/index.js --out-dir ./",
+    "dev": "parcel build ./src/index.js --out-dir ./ --no-minify",
+    "link-local": "yalc link",
+    "watch": "parcel watch ./src/index.js --out-dir ./",
+    "test": "jest test/*.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "babel-preset-env": "~1.6.1",
+    "clang-format": "~1.2.2",
+    "cross-env": "^5.1.6",
+    "http-server": "~0.10.0",
+    "jest": "^26.1.0",
+    "jest-cli": "^26.1.0",
+    "parcel-bundler": "~1.10.3",
+    "typescript": "^2.9.2",
+    "yalc": "~1.0.0-pre.22"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "chart",
+  "name": {
+    "en":"chart",
+    "zh-cn":"图表"
+  },
+  "type": "scratch3",
+  "extensionId": "chart",
+  "image": "charts.jpg",
+  "version": "1.0.0",
+  "examples": []
+}

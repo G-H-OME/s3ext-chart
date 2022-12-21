@@ -1,0 +1,29 @@
+{
+  "en": {
+    "openChart": "open the chart",
+    "setChartType": "set the chart's type [TYPE]",
+    "setChartTitle": "set the chart's title [TITLE]",
+    "setAxis": "set the coordinate axis name X-axis [X] Y-axis [Y]",
+    "addData": "input data [DATA] X-axis [X] Y-axis [Y]",
+    "clearChart": "clear the chart",
+    "closeChart": "close the chart"
+  },
+  "zh-cn": {
+    "openChart": "打开图表窗口",
+    "setChartType": "设置图表类型 [TYPE]",
+    "setChartTitle": "设置图表标题：[TITLE]",
+    "setAxis": "设置坐标轴名称 X轴[X] Y轴[Y]",
+    "addData": "输入数据 [DATA] X轴 [X] Y轴 [Y]",
+    "clearChart": "清空图表数据",
+    "closeChart": "关闭图表窗口"
+  },
+  "zh-tw": {
+    "openChart": "打開圖表窗口",
+    "setChartType": "設置圖表類型 [TYPE]",
+    "setChartTitle": "設置圖表標題：[TITLE]",
+    "setAxis": "設置坐標軸名稱 X軸[X] Y軸[Y]",
+    "addData": "輸入數據 [DATA] X軸 [X] Y軸 [Y]",
+    "clearChart": "清空圖表數據",
+    "closeChart": "關閉圖表窗口"
+  }
+}
